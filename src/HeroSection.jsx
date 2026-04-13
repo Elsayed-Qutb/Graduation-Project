@@ -1,22 +1,27 @@
 import React from "react";
-import Doctor from "./assets/Doctor.svg";
+import Doctor from "./assets/Doctor.jpg";
 import search from "./assets/search.svg";
 import Rating from "./assets/Rating.svg";
 
 export default function HeroSection() {
   return (
     <div>
-      <section className=" w-full flex justify-center">
-        <div className="container h-dvh flex justify-between items-center">
-          <div className="right flex justify-center">
-            <div className="flex flex-col gap-[17px] p-2">
+      <section className=" w-full flex justify-center mt-9">
+
+        <div className="container flex justify-between items-center ">
+          
+          <div className="right flex justify-center items-center h-full">
+
+            <div className="flex flex-col gap-6 p-3  ">
+
+              
               <p className="bg-[#E7F9ED] text-[10px] text-green-500 font-bold w-[170px] p-1.5 felx text-center rounded-2xl">
                 Trusted by 10 Lakh+ Patients
               </p>
 
-              <h1 className=" text-[33px] font-bold w-9/12">
+              <h1 className=" text-[33px] font-bold w-9/12 leading-11">
                 Book Doctor{" "}
-                <span className="text-[#0da2e7] text-[38px]">Appointments</span>{" "}
+                <span className="text-[#0da2e7] text-[38px] tracking-wider">Appointments</span>{" "}
                 Instantly
               </h1>
 
@@ -37,6 +42,7 @@ export default function HeroSection() {
               </div>
 
               <img src={Rating}></img>
+            
             </div>
           </div>
 
