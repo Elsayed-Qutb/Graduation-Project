@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "./assets/Doctor.jpg";
+import Doctor from "./assets/doctor.jpg";
 import search from "./assets/search.svg";
 import Rating from "./assets/Rating.svg";
 
