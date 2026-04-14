@@ -1,7 +1,8 @@
-import React from 'react'
+ import React from 'react'
 import Mainheader from './Mainheader'
 import HeroSection from './HeroSection'
 import BookAppoint from './BookAppoint'
+import Browse from './Browse'
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Mainheader />
       <HeroSection />
       <BookAppoint />
+      <Browse />
     </div>
   )
 }
