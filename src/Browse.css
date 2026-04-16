@@ -1,8 +1,9 @@
 .container{
-    width: 70%;
+    width: 60%;
    content: "";
    margin: auto;
    margin-top: 5%;
+  
 }
 .header{
    font-size: 25px;
@@ -26,20 +27,21 @@
     border-radius: 10px;
 }
 .header-btn1{
-   margin-left: 42%;
+   margin-left: 40%;
    margin-top: 30px;
   background-color:#298fe2;
    color:white ;
    font-size: 15px;
    border-radius: 15px ;
-   width: 15%;
-   height: 45px;
+   width: 25%;
+   height: 55px;
 }
 .header-h2{
     font-weight: bold;
 }
 .header-p1{
     opacity: 0.5;
+    font-size: 15px;
 }
 .header-p2{
     color: blue;
@@ -57,11 +59,11 @@
     margin-top: 5%;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
 }
 .header1-p{
     opacity: 0.5;
-    word-spacing: 15px;
-    line-height: 30px;
+    line-height: 20px;
 }
 .header-icon1{
    color: rgb(69, 156, 255);
